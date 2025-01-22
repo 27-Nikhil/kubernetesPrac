@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-demo
+  labels:
+    enivronment: production
+    app: nginx
+spec:
+  containers:
+  - name: nginx
+    image: quay.io/gauravkumar9130/nginx
+
